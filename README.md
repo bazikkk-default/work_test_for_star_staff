@@ -1,2 +1,7 @@
 # work_test_for_star_staff
-Script for get most intresting records
+1. Downloaad docker, docker-compose
+2. Create directory for volume of postgresql
+3. Mount your volume to your droplet `ln -s /mnt/<volume_name> ./postgres-data`
+4. `docker-compose up -d`
+5. Run local script `python3.6 update_data.py`
+6. After run script for collect record with cashback 
