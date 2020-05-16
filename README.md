@@ -1,7 +1,7 @@
 # work_test_for_star_staff
 
 1. Install pip requirements.txt
-2. Downloaad docker, docker-compose
+2. Download docker, docker-compose
 3. Create directory for volume of postgresql
 4. Mount your volume to your droplet `ln -s /mnt/<volume_name> ./postgres-data`
 5. `docker-compose up -d`
