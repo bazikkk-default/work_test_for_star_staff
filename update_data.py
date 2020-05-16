@@ -12,7 +12,7 @@ parser.add_argument('--password', help="Password for data base", dest='password'
 parser.add_argument('--user', help="User for data base", dest='user', default='postgesql', type=str)
 parser.add_argument('--db', help="Name of data base", dest='db_name', default='simple_test', type=str)
 parser.add_argument('--table_name', help="Name table from database with logs", dest='tname', default='logs', type=str)
-parser.add_argument('--dump_logs', help="Dump path", dest='logs', default='./logs.json', type=str)
+parser.add_argument('--dumped_logs', help="Dump path", dest='logs', default='./logs.json', type=str)
 
 args = parser.parse_args()
 
